@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div#calculadora {
+    width: 300px;
+    height: 450px;
+    background: #246FE7;
+    border-radius: 45px;
+    border: 10px solid #0140C6;
+}
