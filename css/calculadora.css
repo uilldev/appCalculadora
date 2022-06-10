@@ -20,4 +20,42 @@ div#calculadora {
     background: #246FE7;
     border-radius: 45px;
     border: 10px solid #0140C6;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
+div#cabecalho, h1 {
+    color: white;
+    font-size: 22px;
+    font-family: arial;
+    margin-left: 10px;
+}
+
+div#visor {
+    background: #4B5E9E;
+    width: 270px;
+    height: 70px;
+}
+
+div#areaBotoes {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+button {
+    width: 30px;
+    height: 25px;
+    background: black;
+    color: white;
+    margin: 7px;
+    
+}
+
+.colunas {
+    width: 60px;
 }
