@@ -17,7 +17,7 @@ div#container {
 
 div#calculadora {
     width: 300px;
-    height: 450px;
+    height: 400px;
     background: #246FE7;
     border-radius: 45px;
     border: 10px solid #0140C6;
@@ -50,16 +50,35 @@ div#areaBotoes {
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
+    margin-top: 25px;
 }
 button {
-    width: 30px;
-    height: 25px;
-    background: black;
+    width: 48px;
+    height: 30px;
+    background: #0140c6;
     color: white;
     margin: 7px;
+    border-radius: 3px 3px 8px 8px;
+    border: 2px solid #112d68f0;
+    font-weight: bold;
+    font-size: 14px;
     
 }
 
 .colunas {
     width: 60px;
+}
+
+
+button#Btn-somar {
+    height: 74px;
+}
+
+button#Btn-cCE {
+    background: red;
+    border: 2px solid #742c2c;
+}
+
+button#Btn-Off {
+    background: black;
 }
