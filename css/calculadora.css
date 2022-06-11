@@ -82,3 +82,8 @@ button#Btn-cCE {
 button#Btn-Off {
     background: black;
 }
+
+button:hover {
+    background: black;
+    cursor: pointer;
+}
