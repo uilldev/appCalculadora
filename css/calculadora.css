@@ -38,6 +38,9 @@ div#visor {
     background: #4B5E9E;
     width: 270px;
     height: 70px;
+    border: 7px solid #0140c6;
+    border-radius: 10px;
+    box-shadow: inset 0px 7px 8px -2px rgb(0 0 0 / 36%);
 }
 
 div#areaBotoes {
