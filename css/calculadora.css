@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Orbitron', sans-serif;
 }
 
 div#container {
@@ -29,8 +30,8 @@ div#calculadora {
 div#cabecalho, h1 {
     color: white;
     font-size: 22px;
-    font-family: arial;
     margin-left: 10px;
+    
 }
 
 div#visor {
